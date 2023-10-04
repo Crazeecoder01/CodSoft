@@ -1,0 +1,358 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+.head_top{
+    height: 20px;
+    background: linear-gradient(to right,rgb(213, 164, 60),rgb(232, 82, 124), violet, purple);
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.logo h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 15px auto;
+    
+}
+.fa-phone{
+    color: rgb(85, 84, 84);
+}
+.header ul{
+    display: flex;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 10px 0;
+    width: 800px;
+}
+#search_bar{
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 25px;
+    text-align: end;
+    padding-inline-start: 10px;
+}
+.fa-phone{
+    margin: 5px 0;
+}
+.header ul li a{
+    
+    color: rgb(85, 84, 84);
+    padding: 15px 0;
+}
+
+.home{
+    margin-top: 20px;
+    height: 700px;
+    background-color: aquamarine;
+    background: url(Medical-Wallpapers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .home_content{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 200px;
+    text-shadow: 2px 2px 15px black;
+}
+.home .content h3{
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+.home button{
+     border: 2px solid white;
+     /* border-radius: 20px; */
+     height: 45px;
+     width: 90px;
+     background-color: transparent;
+     color: white;
+     margin-left: 200px;
+     margin-top: 50px;
+     padding: 10px 5px;
+}
+.home button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    background: linear-gradient(to right,rgb(213, 164, 60),rgb(232, 82, 124), violet, purple);
+    background-color:rgb(95, 109, 160);
+    border: 2px solid white;
+}
+.main .main1, .main2, .main3{
+    /* display: flex; */
+    position: relative;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    height: 200px;
+    width: 300px;
+}
+.main1_a, .main2_a, .main3_a{
+    display: flex;
+}
+.main h3{
+    color: white;
+    margin: auto 20px;
+}
+.main p{
+    color: white;
+    margin: 30px auto;
+    
+}
+.main button{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.main .fa-solid{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section2{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+
+}
+.section2 .about_us{
+    height: 500px;
+    margin: auto;
+}
+
+.about_us h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.about_us h1::after{
+    content: "";
+    width: 165px;
+   background-color:  black;
+    position: absolute;
+    height: 2px;
+    left: 40px;
+    top: 90px;
+   
+}
+.about_us p{
+    margin: 10px 40px;
+    justify-content: center;
+    color: grey;
+    line-height: 1.6rem;
+}
+.section2 .image{
+  
+    text-align: center;
+}
+.image img{
+    margin-top: 50px;
+}
+.Readmore{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(179, 66, 66);
+    height: 40px;
+    width: 100px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px rgb(149, 146, 146);
+}
+
+.test{
+    background-color: white;
+    /* background-image: url(pexels4.jpg); */
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 2rem;
+    border: 2px solid rgb(167, 59, 59);
+}
+.test h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    position: absolute;
+}
+.test h1:after{
+    content: '';
+    width: 210px;
+   background-color:  black;
+    position: absolute;
+    height: 2px;
+    left: 5px;
+    top: 40px;
+}
+.test .container1, .container2, .container3{
+    height: 250px;
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 2px 5px 15px rgb(63, 63, 63);
+}
+.test .container1{
+    background-color: blueviolet;
+    background: url(pexels7.jpg);
+    background-size: cover;
+}
+.test .container2{
+    background-color: antiquewhite;
+    background: url(pexels8.jpg);
+    background-size: cover;
+}
+.test .container3{
+    background-color: azure;
+    background: url(pexels9.jpg);
+    background-size: cover;
+}
+.container1 .button, .container2 .button, .container3 .button{
+   margin-top: 230px;
+   height: 40px;
+   width: 200px;
+   border-radius: 20px;
+   border: none;
+   box-shadow: 2px 5px 15px rgb(63, 62, 62);
+}
+ .button_i{
+    position: relative;
+    margin-right: -35px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: linear-gradient(to right, violet, rgb(241, 11, 11));
+    border-radius: 20px;
+}
+
+.footer{
+    color: white;
+    height: 300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(0, 1, 14);
+}
+.footer .logo1 h1{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 15px auto;
+}
+.footer .logo1{
+    background-color: rgb(0, 1, 14);
+    width: 250px;
+    margin: 0px 80px;
+}
+.footer .logo1 p{
+    color: rgba(226, 232, 242, 0.764);
+}
+.footer .office{
+    background-color: rgb(0, 1, 14);
+    width: 250px;
+    margin: 0px 100px;
+}
+.footer .office .address{
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(174, 172, 172);
+    line-height: 1.4rem;
+}
+.footer .links{
+    background-color: rgb(0, 1, 14);
+    width: 250px;
+    margin: 0px 10px;
+}
+.footer .newsletter{
+    background-color: rgb(0, 1, 14);
+    width: 250px;
+    margin: 0px 50px;
+}
+.footer .links .list ul{
+    padding: 10px;
+    position: relative;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 10px 0;
+    color: rgb(174, 172, 172);
+    line-height: 1.7rem;
+}
+.footer .head{
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.newsletter form{
+    margin: 20px auto;
+}
+
+.newsletter form input{  
+    
+    outline: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #ccc;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+form .fa-envelope{
+    margin: 0 10px;
+}
+.icons .fa-brands{
+    font-size: 20px;
+   padding: 10px 10px;
+   cursor: pointer;
+}
